@@ -1,0 +1,126 @@
+.app {
+  text-align: center;
+  
+}
+
+.app > h2 {
+  padding: 23px;
+  text-align: center;
+  background-color: rgba(185, 24, 3, 0.616);
+  font-family: 'Abril Fatface', cursive;
+  color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.397);
+}
+
+.app__body {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+  min-height: 500px;
+  margin-top: -30px!important;
+  margin-bottom: 70px !important;
+}
+
+.app__body > button {
+  height: min-content;
+}
+
+.app__inputAmount {
+  padding: 20px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  background-color: rgba(255, 255, 255, 0.712);
+}
+
+.app__inputAmount > label {
+  text-align: left;
+  padding-top: -10px !important;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.app__inputAmount > input {
+  padding: 5px;
+  margin-bottom: 15px;
+  width: 250px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.app__inputAmount > select {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.app__outputAmount {
+  padding: 20px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  background-color: rgba(255, 255, 255, 0.712);
+}
+
+.app__outputAmount > label {
+  text-align: left;
+  padding-top: -10px !important;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.app__outputAmount > input {
+  padding: 5px;
+  margin-bottom: 15px;
+  width: 250px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.app__outputAmount > select {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.app__footer {
+  text-align: center;
+}
+.text-center {
+  text-align: center!important;
+}
+.py-3 {
+  padding-bottom: 1rem!important;
+}
+
+footer {
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  left:0;
+  padding: 15px 25px;
+  background-color: rgba(0,0,0,.767);
+  background-size: cover;
+  width: 100%;
+  display: inline-block;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 17px;
+}
+
+@media only screen and (max-width: 750px) {
+  .app__body {
+    flex-direction: column;
+  }
+  footer {
+    position: absolute;
+    bottom: -160px;
+    left:0;
+  }
+}
